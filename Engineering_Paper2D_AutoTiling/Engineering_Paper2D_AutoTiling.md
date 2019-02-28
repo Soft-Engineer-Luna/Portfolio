@@ -36,9 +36,7 @@ Auto tiling patterns and types of behaviour are able to be defined for teach til
 ###### gif of auto tiling in engine
 <br/><br/>
 ## Challenges
-The general system for bitmasking is straight forward to implement the challenges came from building upon
-the Paper2D editors runtime and editor modules, keeping it fast and simple while allowing the system to 
-still be configured for different types of patterns(and to not break stuff too!).
+With out a proper knowledge of bitmasking and binary this made the start pretty rough, but after research and practice i picked the knowledge up pretty fast. The general system for bitmasking is straight forward to implement the challenges came from building upon the Paper2D editors runtime and editor modules, keeping it fast and simple while allowing the system to still be configured for different types of patterns(and to not break stuff too!).
 
 ### few code snippets
 ```cpp
