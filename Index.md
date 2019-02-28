@@ -8,7 +8,7 @@ weight: 0
 
 
 
-```cpp
+ ``` cpp
 
 	if (!SplineThickness.IdenticalTo(_SplineThickness))
 	{
@@ -16,4 +16,4 @@ weight: 0
 		Invalidate(EInvalidateWidget::PaintAndVolatility);
 	}
 
-```
+ ```
