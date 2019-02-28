@@ -1,5 +1,5 @@
 ---
-menu: UMG_Splines
+menu: UMG Splines
 tab: false
 parent: Engineering.md
 weight: 1
