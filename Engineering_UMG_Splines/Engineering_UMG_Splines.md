@@ -147,8 +147,7 @@ float USplineMathLibrary::GetSplineDirectionAngle(const FVector2D Direction)
 One of the main challenges I had to face was the restriction of not being able to easily
 add a handle based control system in the UMGEditor, there is a system for extending this 
 but it is not yet finished. 
-###### you can find my PR here finishing exposing the system
-###### https://github.com/EpicGames/UnrealEngine/pull/5525
+###### you can find my PR [here](https://github.com/EpicGames/UnrealEngine/pull/5525)  finishing exposing the system
 After much testing and iteration, the solution ended up being a function that can be used during
 designer time to pass an array of handle targets too the slate widgets, you could then choose to 
 delete these handles during the non-designer time to remove them from the widget.
