@@ -9,15 +9,13 @@ weight: 2
 
 I decided to fill the gap in the paper2d Plugin, it lacked the ability to quickly and easily 
 create maps, so I took it upon myself to do the required research and integrate an autotiling 
-system through bit masking patterns. I choose to implement the pattern used by the most popular 2D rpg 
+system through bit masking patterns. After research I choose to implement the pattern used by the most popular 2D rpg 
 engine RPGMaker.
 <br/><br/>
 ![Tiling Pattern](Media/AutoTilingPattern.jpg?raw=true "Tiling pattern")
 ###### image from RPGMaker forum same pattern used in the Tiling System i built
 <br/><br/> 
-The system was developed to support different tile types and sub tile components, meaning that
-you could get much more accurate and nicer looking auto tiling on any case that was not a cardinal
-direction. 
+I Choose to support different tile types and 8 directional auto tiling to get a much more accurate and nicer looking result from the auto tiling system.
 <br/><br/>
 ![Tiling Pattern](Media/BitConfig.png?raw=true "Tiling pattern")
 ###### edited images from tutsplus.com by Sonny Bone for visual ref
