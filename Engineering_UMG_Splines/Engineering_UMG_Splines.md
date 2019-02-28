@@ -16,12 +16,12 @@ I created a Base Slate Spline class and a base UMG Spline class. These base clas
 while I am able to derive from there and build layers of functionality on top or override existing functionality
 to easily create Splines with different behavior.
 ```cpp
+// slate
 class SSpline;
+// uwidget
 class USpline;
 ```
-Here is a snippet of the base Slate Spline class and the mandatory SplineData struct. This struct is required for all
-spline classes, you are expected to set it in a slate non-macro constructor.
-Any other optional parameters can be passed through the slate macro constructor.
+Here is a snippet of the base Slate Spline class and the mandatory SplineData struct. This struct is required for all spline classes, and is passed through to Construct while using SNew or SAssignNew `SNew(USpline, SplineData)` and cannot be set using the postfix `.Member(Value)` notation (named paramater pattern) - as it is not an optional paramater.
 ```cpp
 struct FSplineData
 {

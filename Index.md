@@ -7,7 +7,7 @@ weight: 0
  [![Foo](Engineering_UMG_Splines/Media/SplineG.gif?raw=true)](Engineering_UMG_Splines/Engineering_UMG_Splines.html)
 
 
-
+code | code | code
  ``` cpp
 
 	if (!SplineThickness.IdenticalTo(_SplineThickness))
@@ -17,3 +17,9 @@ weight: 0
 	}
 
  ```
+--- | --- | ---
+
+--- | --- | 
+--- | --- | 
+*Still* | `renders` 
+--- | --- | 

@@ -3,7 +3,6 @@ plugins:
 remote_theme: chromatical/jekyll-materialdocs
 
 
-mdl_colors: purple-cyan # a supported Material Design Lite color scheme
 copyright: Rei Forshaw # will override the copyright notice (default is site title)
 search: true # enabled by default, set to false to disable site search
 menu_style: dropdown # will only show child menu items for the main item selected
