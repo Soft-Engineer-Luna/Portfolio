@@ -148,11 +148,7 @@ One of the main challenges I had to face was the restriction of not being able t
 add a handle based control system in the UMGEditor, there is a system for extending this 
 but it is not yet finished. 
 ###### you can find my PR [here](https://github.com/EpicGames/UnrealEngine/pull/5525)  finishing exposing the system
-After much testing and iteration, the solution ended up being a function that can be used during
-designer time to pass an array of handle targets too the slate widgets, you could then choose to 
-delete these handles during the non-designer time to remove them from the widget.
-This seems to be the best solution right now until the FDesignerExtension system has been exposed
-within the engine, keeping it clean and somewhat easy to decrypt later on.
+After much testing and discovery of limitations, the stock-ue4 solution ended up being a function that can be used during designer time to pass an array of handle targets to the slate widgets. These don't need to exist during runtime. This should work until the FDesignerExtension system has been exposed for non-engine modules,  and should be easy to rework later on. 
 <br/><br/>
 ![Tiling Pattern](Media/SplineNode.png?raw=true "Tiling pattern")
 <br/><br/>
