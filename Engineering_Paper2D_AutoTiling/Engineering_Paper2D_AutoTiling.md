@@ -40,8 +40,8 @@ With out a proper knowledge of bitmasking and binary this made the start pretty 
 
 ### few code snippets
 ```cpp
-// Bitmask for defining the Tile to assemble
-uint8 index = NorthWest + (2 * North) + (4 * NorthEast) + (8 * West) + (16 * East) + (32 * SouthWest) + (64 * South) + (128 * SouthEast);
+// Bitmask for defining the Tile type to assemble
+uint8 index = (NorthWest)|(North << 1)|(NorthEast << 2)|(West << 3)|(East << 4)|(SouthWest << 5)|(South << 6)|(SouthEast << 7);
 //...
 
 // itterating through surround tiles checking adject tiles
