@@ -2,8 +2,8 @@ plugins:
   - jekyll-remote-theme
 remote_theme: chromatical/jekyll-materialdocs
 
-baseurl: "/sub-directory"
-url: "https://Soft-Engineer-Luna.github.io/Index.html"
+baseurl: ""
+url: "https://Soft-Engineer-Luna.github.io/"
 
 
 copyright: Luna Forshaw # will override the copyright notice (default is site title)
