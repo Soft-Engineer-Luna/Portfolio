@@ -2,7 +2,7 @@ plugins:
   - jekyll-remote-theme
 remote_theme: chromatical/jekyll-materialdocs
 
-baseurl: ""
+baseurl: "/Portfolio"
 url: "https://Soft-Engineer-Luna.github.io"
 
 copyright: Luna Forshaw # will override the copyright notice (default is site title)
