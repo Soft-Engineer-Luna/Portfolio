@@ -5,7 +5,6 @@ remote_theme: chromatical/jekyll-materialdocs
 baseurl: ""
 url: "https://Soft-Engineer-Luna.github.io"
 
-
 copyright: Luna Forshaw # will override the copyright notice (default is site title)
 search: true # enabled by default, set to false to disable site search
 menu_style: dropdown # will only show child menu items for the main item selected
