@@ -1,4 +1,5 @@
 ---
+menu: Paper2D AutoTiling
 tab: false
 parent: Engineering.md
 weight: 2
