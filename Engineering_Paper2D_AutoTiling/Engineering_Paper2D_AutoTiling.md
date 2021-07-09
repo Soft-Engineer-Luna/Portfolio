@@ -7,36 +7,38 @@ weight: 2
 
 # intergrating a auto tiling system in too the Paper2D Plugin
 
-I decided to fill the gap in the paper2d Plugin, it lacked the ability to quickly and easily 
-create maps, so I took it upon myself to do the required research and integrate an autotiling 
-system through bit masking patterns. After research I choose to implement the pattern used by the most popular 2D rpg 
-engine RPGMaker.
+I decided to fill the gap in the paper 2d Plugin, it lacked the ability to quickly and easily 
+create maps. So I took it upon myself to do the required research and integrate an autotiling 
+system through bit masking patterns. After research I choose to implement the pattern used by the most popular 2D rpg engine RPGMaker.
+
 <br/><br/>
 ![Tiling Pattern](Media/AutoTilingPattern.jpg?raw=true "Tiling pattern")
 ###### image from RPGMaker forum same pattern used in the Tiling System i built
 <br/><br/> 
-I Choose to support different tile types and 8 directional auto tiling to get a much more accurate and nicer looking result from the auto tiling system.
+I choose to support different tile types and eight directional auto tiling to get a much more accurate and nicer looking result from the auto tiling system.
 <br/><br/>
 ![Tiling Pattern](Media/BitConfig.png?raw=true "Tiling pattern")
 ###### edited images from tutsplus.com by Sonny Bone for visual ref
-Example image above show the concept of assigning IDs through bitmasks works on 4 direction.
+The example image above show the concept of assigning IDs through bitmasks works on four direction.
 <br/><br/>
 ![Tiling Pattern](Media/TileSetSetup.jpg?raw=true "Tiling pattern")  
 <br/><br/>
-The system would follow a ruleset to generate the Tile Group Sets and each sets IDs
-so that no manual data would have to be entered, you can see above the red markings showing a tile
-set group and inside marked with blue are the tile IDs being cut up.
+The system would follow a ruleset to generate the Tile Group Sets, each sets IDs
+so that no manual data would have to be entered. You can see above the red markings showing a tile
+set group and inside, marked with blue, are the tile IDs being cut up.
 
 The patterns that drive these systems can also be driven by a data table to override the default ruleset
-that says what type of tile cases should use what combination of 4 sub tiles to create the desired tile.
+that says what type of tile cases should use what combination of four sub tiles to create the desired tile.
 
-Auto tiling patterns and types of behaviour are able to be defined for teach tile set.
+Auto tiling patterns and types of behaviour are able to be defined for each tile set.
 <br/><br/>
 ![Tiling Pattern](Media/AutoTilingRock.gif?raw=true "Tiling pattern")
 ###### gif of auto tiling in engine
 <br/><br/>
 ## Challenges
-With out a proper knowledge of bitmasking and binary this made the start pretty rough, but after research and practice i picked the knowledge up pretty fast. The general system for bitmasking is straight forward to implement the challenges came from building upon the Paper2D editors runtime and editor modules, keeping it fast and simple while allowing the system to still be configured for different types of patterns(and to not break stuff too!).
+My limited understanding of bitmasking and binary made the start pretty rough, but after doing some research and practice I picked it up pretty fast.
+The general system for bitmasking were pretty straigh forward to implement, the challenges came from building upon the Paper2D editors runtime and editor modules. 
+Keeping it fast and simple while allowing the system to still be configured for different types of patterns(and to not break stuff too).
 
 ### few code snippets
 ```cpp
