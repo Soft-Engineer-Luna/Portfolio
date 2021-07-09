@@ -1,5 +1,5 @@
-#  <div align="center">Soft Engineer, Luna </div>
-###  <div align="center"> Luna Forshaw </div>
+#  Soft Engineer, Luna
+###   Luna Forshaw 
 
 Passionate software engine, 6+ years of software engining with a passion for games development, deep learning neural networks and biomedical engineering.
 Looking to grow and develop my skills.
